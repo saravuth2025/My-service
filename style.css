@@ -178,7 +178,7 @@ img:hover, i.fab:hover {
   max-width: 1200px;
 }
 
-@media (max-width: 60px) {
+@media (max-width: 20px) {
   .menu {
     flex-direction: column;
   }
