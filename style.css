@@ -166,3 +166,25 @@ img:hover, i.fab:hover {
     opacity: 1;
   }
 }
+
+/* Bad: fixed width */
+.container {
+  width: 1200px;
+}
+
+/* Good: flexible width */
+.container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
